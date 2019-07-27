@@ -1,0 +1,12 @@
+development:
+  clients:
+    default:
+      database: ninjagram
+      hosts:
+        - mongo:27017
+
+
+production: 
+  clients: 
+    default:
+      uri: mongodb+srv://adriano:<password>@cluster0-f5ql5.mongodb.net/test?retryWrites=true&w=majority
